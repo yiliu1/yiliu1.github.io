@@ -12,7 +12,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
-
 <body>
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -44,7 +43,6 @@
         </ul>
     </header>
     <!-- End header -->
-
     <div id="lead">
         <div id="lead-content">
             <h1>Yi Liu</h1>
@@ -86,7 +84,7 @@
 <!--********************    Start Projects Section   *******************-->
 <!--********************    Start Projects Section   *******************-->
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Selected Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
@@ -97,9 +95,9 @@
                     <div class="project-info">
                         <h3>High Performance Computing</h3>
                         <p ALIGN=LEFT>
-                            &#183 High performance can be achieved through cache memory optimization and parallelization such as OpenMP, MPI and GPU.
+                            &#183 High performance can be achieved through parallelization such as OpenMP, MPI and GPU.
                             <br/>
-                            &#183 Typically, one to two order speedup can be expected.
+                            &#183 Memory hierachy optimization can be used to achieve one to two order speedup.
                         </p>
                         <a href="https://github.com/yiliu1/high-performance-computing">View Project</a>
                     </div>
@@ -108,13 +106,13 @@
                 <!-- End .project -->
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/vision.jpg" width="200", height="200"/>
+                        <img src="images/vision.jpg" width="200", height="175"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3> Image Processing </h3>
+                        <h3> Robotic Perception </h3>
                         <p align="LEFT">
-                            &#183 Deep learning model to fuse multimodal data for robotics. 
+                            &#183 Deep generative model to fuse multimodal data for robotics. 
                             <a href="https://github.com/yiliu1/Variational-Auto-Encoder-for-Robotic-Perception">View Project</a>
                             <br/>
                             &#183 Convolutional neural nets for road segmentation from aerial images. 
@@ -130,16 +128,22 @@
                     <div class="project-image">
                         <img src="images/finance.jpg" width="200", height="175"/>
                     </div>
-                    <!-- End .project-image -->
+                  
                     <div class="project-info">
-                        <h3>Financial application </h3>
+                        <h3>AI for Finance </h3>
                         <p align="LEFT">
-                            &#183 Deep learning based model for solving 
-                            high dimensional stochastic partial differential equations.
+                            &#183 Option Pricing: deep learning based model for solving high dimensional stochastic partial differential equations(basket options).
+                            <br/>
                             <a href="https://github.com/yiliu1/Machine-Learning-in-Finance">View Project</a>
+                            <br/>
+                            &#183 Dynamic programming:a toy model for escaping game.
+                            <a href="https://github.com/yiliu1/dynamic-programming">View Project</a>
+                            <br/>
+                            &#183 Reinforcement learning for cryptocurrency trading.
+                            <!--<a href="https://github.com/yiliu1/Machine-Learning-in-Finance">View Project</a>
+                            -->
                         </p>
                     </div>
-                    <!-- End .project-info -->
                 </div>
 
                 <div class="project shadow-large">
@@ -148,10 +152,13 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Gene Data</h3>
+                        <h3>Theory: high dimensional statistics</h3>
                         <p align="LEFT">
-                            &#183 Linear model for high dimensional gene data.
-                            The model is used for drug effect test.
+                            &#183 Sparsity: compatibility condition for linear model.
+                            <br/>
+                            &#183 Optimal transport: Wasserstein distance as generalization bound.
+                            <br/>
+                            <!--&#183 Platform for analysing gene data for drug discovery. -->
                         </p>
                         <a href="https://github.com/yiliu1/Gene_Analysing">View Project</a>
                     </div>
@@ -189,21 +196,24 @@
         <div id="experience-timeline">
             <div data-date="September 2013 – 2016">
                 <h3>University of British Columbia, Canada</h3>
-                <h4>Graduate student and Research Assistant</h4>
+                <h4>Graduate Student and Research Assistant</h4>
                 <p>
                     &#183 Research on theoretical physics. 
                     <br/>
-                    &#183 Working on applying ads/cft duality on non-equilibrium statistical physics.
+                    &#183 Working on applying ads/cft duality to non-equilibrium statistical physics.
+                    <br/>
+                    &#183 Working on models for high temperature
+                    superconductor.
                 </p>
             </div>
 
-      <!--      <div data-date="2016">
-                <h3>Cryptocurrency wallet startup, Beijing </h3>
+            <div data-date="since 2012 to now">
+                <h3>Cryptocurrency trader </h3>
                 <h4>Analyst and trader</h4>
                 <p> 
                 </p>
             </div>
-     -->
+     
        <!--     <div data-date="2019">
                 <h3>Startup, Switzerland</h3>
                 <h4>Co-founder</h4>
@@ -340,5 +350,4 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
 </body>
-
 </html>
